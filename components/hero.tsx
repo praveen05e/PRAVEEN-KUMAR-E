@@ -144,14 +144,16 @@ export function Hero({ heroImage, resumeFile }: HeroProps) {
                 <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Link>
               
-              <Link
-                href={resumeFile || "/resume.pdf"}
-                download="Praveen_Kumar_Resume.pdf"
+              <a
+                href={resumeFile || "https://drive.google.com/file/d/1yeTYq-Q52yiuJfcqJgXEfcDC3ln6p4Gh/view?usp=sharing"}
+                target="_blank"
+                rel="noopener noreferrer"
+                download={resumeFile ? undefined : undefined}
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-border bg-card/30 backdrop-blur-sm text-foreground font-semibold text-sm transition-all hover:bg-muted/50 hover:border-primary/30"
               >
                 <Download className="h-4 w-4 text-muted-foreground" />
                 <span>Download CV</span>
-              </Link>
+              </a>
             </motion.div>
 
             {/* Social Links */}
