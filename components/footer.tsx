@@ -60,12 +60,12 @@ export function Footer() {
 
   const resourceLinks = [
    
-    { name: 'GitHub Profile', href: 'https://github.com', icon: GithubIcon, isExternal: true },
+    { name: 'GitHub Profile', href: 'https://github.com/praveen05e', icon: GithubIcon, isExternal: true },
     { name: 'LinkedIn', href: 'https://www.linkedin.com/in/praveen05e/', icon: LinkedinIcon, isExternal: true },
   ]
 
   const socialLinks = [
-    { icon: GithubIcon, href: 'https://github.com', label: 'GitHub' },
+    { icon: GithubIcon, href: 'https://github.com/praveen05e', label: 'GitHub' },
     { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/praveen05e/', label: 'LinkedIn' },
     { icon: XTwitterIcon, href: 'https://x.com/praveen05e', label: 'Twitter' },
    
